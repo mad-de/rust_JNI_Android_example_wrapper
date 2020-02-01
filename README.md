@@ -16,6 +16,7 @@ and [Rust](https://rustup.rs/).
 * Install [Android Studio](https://developer.android.com/studio) and [add the ANDROID_HOME and PATH varaible](https://web.archive.org/web/20180210044548/http://spring.io/guides/gs/android/)
 * Set up a NDK toolchain
 
+
     rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android
     gedit ~/.cargo/config
 
