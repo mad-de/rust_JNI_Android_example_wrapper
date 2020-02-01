@@ -53,3 +53,5 @@ save and exit file.
 
     cd rust
     cargo test
+
+![Screenshot from 2020-02-01 16-43-43](https://user-images.githubusercontent.com/7095883/73594811-1149d280-4512-11ea-8a6e-14d329373066.png)
