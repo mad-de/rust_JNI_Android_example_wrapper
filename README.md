@@ -13,9 +13,10 @@ Rust functions are tested. Testing the wrapper functions in Rust is a bit more o
 
 * Install [git](https://git-scm.com) (see [here how to install git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/))
 and [Rust](https://rustup.rs/).
-* Install [Android Studio](https://developer.android.com/studio) 
+* Install [Android Studio](https://developer.android.com/studio) and [add the ANDROID_HOME and PATH varaible](https://web.archive.org/web/20180210044548/http://spring.io/guides/gs/android/)
 * Set up a NDK toolchain
 
+    rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android
     gedit ~/.cargo/config
 
 Adjust and add the following part (Identify your NDK folder with the prebuilt files in your Android SDK location (similar to the paths shown))
