@@ -18,7 +18,7 @@ and [Rust](https://rustup.rs/).
 
     gedit ~/.cargo/config
 
-Identify your NDK folder with the prebuilt files in your Android SDK location (similar to the paths shown)
+Adjust and add the following part (Identify your NDK folder with the prebuilt files in your Android SDK location (similar to the paths shown))
 ```
 [target.aarch64-linux-android]
 ar = "/home/username/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar"
@@ -32,9 +32,11 @@ linker = "/home/username/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/l
 ar = "/home/username/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android-ar"
 linker = "/home/username/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/i686-linux-android28-clang"
 ```
-save and exit file
+save and exit file.
 
-### Build rust
+### Download files & build rust part
+
+    git clone https://github.com/mad-de/rust_JNI_Android_example_wrapper
     cd rust_JNI_Android_example_wrapper
     ./buildScript.command
 
