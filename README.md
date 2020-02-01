@@ -15,7 +15,8 @@ Rust functions are tested. Testing the wrapper functions in Rust is a bit more o
 and [Rust](https://rustup.rs/).
 * Install [Android Studio](https://developer.android.com/studio) 
 * Set up a NDK toolchain
-gedit ~/.cargo/config
+
+    gedit ~/.cargo/config
 
 Identify your NDK folder with the prebuilt files in your Android SDK location (similar to the paths shown)
 ```
