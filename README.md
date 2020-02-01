@@ -46,6 +46,9 @@ save and exit file.
 ### Run / compile
 * Load android folder as a new project in Android SDK and run / build apk
 
+### Expected result
+![Screenshot from 2020-02-01 16-39-21](https://user-images.githubusercontent.com/7095883/73594773-aef0d200-4511-11ea-8c32-b3259996b82d.png)
+
 ## Run rust tests
 
     cd rust
